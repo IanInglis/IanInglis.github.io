@@ -52,5 +52,18 @@ table {
 
 
 /* END RESET */
+h1 {
+font-weight: bold;
+font-size: 3em;
+padding: 20px;
+}
 
+body {
+	font-family: Helvetica;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 2em;
+}
 
