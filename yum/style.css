@@ -56,6 +56,7 @@ h1 {
 font-weight: bold;
 font-size: 3em;
 padding: 20px;
+background-color: black;
 }
 
 body {
@@ -66,4 +67,13 @@ h2 {
 	font-weight: bold;
 	font-size: 2em;
 }
+
+.ingredients {
+	float: left;
+}
+
+.list {
+	float: right;
+}
+
 
