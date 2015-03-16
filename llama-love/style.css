@@ -59,8 +59,8 @@ article {
 
 img {
 	float: left;
-	margin-right: 20px;
-	margin-bottom: 20px;
+	margin: 0 10px 10px 0;
+	
 }
 
 
