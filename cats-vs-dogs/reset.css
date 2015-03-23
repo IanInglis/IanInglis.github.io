@@ -60,6 +60,11 @@ article {
 	margin: 10px;
 }
 
+a {
+	color: black;
+	float: left;
+	margin: 45px;
+}
 .dog {
 	float: left;
 	width: 45%;
