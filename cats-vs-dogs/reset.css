@@ -55,7 +55,11 @@ header {
 
 article {
 	float: left;
+	padding: 50px;
+	width: 45%;
+	margin: 10px;
 }
+
 .dog {
 	float: left;
 	width: 45%;
