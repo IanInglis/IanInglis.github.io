@@ -53,6 +53,9 @@ header {
 	float: top;
 }
 
+article {
+	float: left;
+}
 .dog {
 	float: left;
 	width: 45%;
