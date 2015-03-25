@@ -58,8 +58,9 @@ font-size: 6em;
 padding: 50px;
 background-color: black;
 color: white;
-width: 100%;
+width: 95%;
 text-align: center;
+margin: 15px;
 }
 
 body {
