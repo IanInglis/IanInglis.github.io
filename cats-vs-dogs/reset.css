@@ -53,7 +53,7 @@ header {
 	float: center;
 }
 
-#main-menu li {
+.main-menu li {
 	float: left;
 	color: black;
 	text-decoration: none;
