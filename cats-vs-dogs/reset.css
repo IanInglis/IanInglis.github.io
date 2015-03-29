@@ -63,6 +63,7 @@ a {
 	color: black;
 	float: left;
 	margin: 45px;
+	border-top: 1px black solid;
 }
 #dog {
 	float: left;
