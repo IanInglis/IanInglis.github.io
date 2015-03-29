@@ -80,14 +80,14 @@ h3 {
 	margin-top: 400px;
 }
 
-.ingredients {
+#ingredients {
 	float: left;
 	padding: 100px;
 	width: 30%;
 	margin-top: 300px;
 }
 
-.list {
+#list {
 	float: left;
 	padding: 100px;
 	width: 50%;
