@@ -49,34 +49,5 @@ table {
 }
 
 /* -----------------END RESET---------------- */
-header {
-	float: left;
-}
-
-img {
-	float: left;
-	width: 35%;
-	margin: 10px;
-}
-
-#main-menu li a {
-	color: black;
-	float: left;
-	margin: 45px;
-	border-top: 1px black solid;
-}
-
-#dog {
-	float: left;
-}
-
-#cat {
-	float: left;
-}
-}
-
-footer {
-	text-align: left;
-}
 
 
