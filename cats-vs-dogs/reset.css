@@ -53,6 +53,11 @@ header {
 	float: top;
 }
 
+img {
+	float: left;
+	width: 45%;
+	margin: 10px;
+}
 
 a {
 	color: black;
