@@ -65,13 +65,13 @@ a {
 	float: left;
 	margin: 45px;
 }
-.dog {
+#dog {
 	float: left;
 	width: 45%;
 	margin: 10px;
 }
 
-.cat {
+#cat {
 	float: left;
 	width: 45%;
 	margin: 10px;
