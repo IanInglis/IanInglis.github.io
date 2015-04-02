@@ -61,14 +61,15 @@ header {
 	position: absolute;
 	color: black;
 	float: right;
-	border-top: 1px black solid;
-	border-bottom: 1px black solid;
+	border-top: 2px black solid;
+	border-bottom: 2px black solid;
 	width: 100%;
 }
 
 #main-menu li {
 	float: left;
 	margin-right: 20px;
+	list-style-type: circle;
 }
 
 #main-menu a {
