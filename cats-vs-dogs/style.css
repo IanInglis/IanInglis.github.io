@@ -93,7 +93,7 @@ header {
 }
 
 #cat {
-	float: left;
+	float: right;
 	margin: 10px;
 	width: 35%;	
 }
