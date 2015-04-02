@@ -50,7 +50,8 @@ table {
 
 /* -----------------END RESET---------------- */
 header {
-	float: top;
+	position: top;
+
 }
 
 
@@ -73,6 +74,7 @@ header {
 	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 #main-menu a:hover {
