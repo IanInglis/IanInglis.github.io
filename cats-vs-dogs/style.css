@@ -87,7 +87,7 @@ header {
 }
 
 article {
-	float: bottom;
+	float: left;
 	margin: 10px;
 }
 
@@ -100,7 +100,7 @@ img {
 
 footer {
 	text-align: left;
-	float: none;
+	clear: bottom;
 }
 
 
