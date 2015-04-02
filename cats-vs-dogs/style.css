@@ -60,8 +60,6 @@ header {
 	float: right;
 	border-top: 1px black solid;
 	border-bottom: 1px black solid;
-	text-transform: uppercase;
-	text-decoration: none;
 }
 
 #main-menu li {
@@ -72,6 +70,8 @@ header {
 #main-menu a {
 	color: black;
 	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 #main-menu a:hover {
