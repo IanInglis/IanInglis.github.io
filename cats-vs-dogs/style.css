@@ -85,24 +85,16 @@ header {
 #main-menu a:hover {
 	background-color: blue;
 }
-#dog {
-	float: left;
-	width: 40%;
-	margin-right: 10px;
-	margin-left: 10px;
-	
-}
 
-#cat {
+article {
 	float: left;
-	width: 40%;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin: 10px;
 }
 
 
-footer>p {
+footer {
 	text-align: left;
+	float: none;
 }
 
 
