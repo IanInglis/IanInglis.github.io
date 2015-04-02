@@ -53,11 +53,6 @@ header {
 	float: top;
 }
 
-img {
-	float: left;
-	width: 35%;
-	margin: 10px;
-}
 
 #main-menu {
 	position: absolute;
@@ -65,6 +60,7 @@ img {
 	float: right;
 	margin: 45px;
 	border-top: 1px black solid;
+	border-bottom: 1px black solid;
 }
 
 #main-menu li {
