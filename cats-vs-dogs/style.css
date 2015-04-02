@@ -60,10 +60,15 @@ img {
 }
 
 #main-menu {
+	position: absolute;
 	color: black;
-	float: left;
+	float: right;
 	margin: 45px;
 	border-top: 1px black solid;
+}
+
+#main-menu li {
+	float: left;
 }
 #dog {
 	float: left;
