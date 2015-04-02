@@ -87,7 +87,7 @@ header {
 }
 
 article {
-	float: left;
+	float: bottom;
 	margin: 10px;
 }
 
