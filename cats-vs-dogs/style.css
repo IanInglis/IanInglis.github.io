@@ -86,10 +86,16 @@ header {
 	background-color: blue;
 }
 
-article {
+#dog {
 	float: left;
 	margin: 10px;
 	width: 35%;
+}
+
+#cat {
+	float: left;
+	margin: 10px;
+	width: 35%;	
 }
 
 
