@@ -89,6 +89,7 @@ header {
 article {
 	float: left;
 	margin: 10px;
+	max-width: 45%;
 }
 
 
