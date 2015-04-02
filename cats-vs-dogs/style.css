@@ -69,7 +69,7 @@ header {
 #main-menu li {
 	float: left;
 	margin-right: 20px;
-	list-style-type: circle solid black;
+	list-style-type: circle;
 }
 
 #main-menu a {
