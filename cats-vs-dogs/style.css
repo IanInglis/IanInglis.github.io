@@ -88,11 +88,17 @@ header {
 }
 #dog {
 	float: left;
+	width: 45%;
+	margin-right: 10px;
+	margin-left: 10px;
 	
 }
 
 #cat {
 	float: left;
+	width: 45%;
+	margin-right: 10px;
+	margin-left: 10px;
 	
 }
 
