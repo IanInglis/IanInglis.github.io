@@ -79,14 +79,12 @@ header {
 }
 #dog {
 	float: left;
-	width: 45%;
-	margin: 10px;
+	
 }
 
 #cat {
 	float: left;
-	width: 45%;
-	margin: 10px;
+	
 }
 
 footer>p {
