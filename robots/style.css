@@ -50,3 +50,67 @@ table {
 	border-spacing: 0;
 }
 
+ {
+	margin: 0 auto;
+}
+
+#site-header {
+	margin: 0 auto;
+	width: 80%;
+}
+
+header h1 {
+	float:left;
+	width:50%;
+}
+
+#top-nav {
+	float:right;
+	width:50%;
+}
+
+#site-wrapper {
+	background-color:green;
+	height:100px;
+
+}
+
+#menu-wrapper {
+	background-color:brown;
+	clear:both;
+}
+
+#main-menu {
+	margin:0 auto;
+	width: 80%;
+}
+
+#content-wrapper {
+	background-color:chartreuse;
+}
+
+#content {
+	margin:0 auto;
+	width:80%;
+}
+
+#footer-wrapper {
+	background-color:brown;
+	width:80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
