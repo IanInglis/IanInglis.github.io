@@ -78,6 +78,7 @@ header h1 {
 #menu-wrapper {
 	background-color:brown;
 	clear:both;
+	height:20px;
 }
 
 #main-menu {
@@ -87,6 +88,7 @@ header h1 {
 
 #content-wrapper {
 	background-color:chartreuse;
+	clear:both;
 }
 
 #content {
@@ -99,7 +101,9 @@ header h1 {
 	width:80%;
 }
 
-
+#main-menu li {
+	float:left;
+}
 
 
 
