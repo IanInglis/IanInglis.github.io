@@ -99,6 +99,7 @@ header h1 {
 #footer-wrapper {
 	background-color:brown;
 	width:80%;
+	clear:both;
 }
 
 #main-menu li {
