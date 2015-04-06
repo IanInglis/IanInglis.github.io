@@ -67,6 +67,7 @@ header h1 {
 #top-nav {
 	float:right;
 	width:50%;
+	text-align: right;
 }
 
 #site-wrapper {
@@ -100,6 +101,7 @@ header h1 {
 	background-color:brown;
 	width:80%;
 	clear:both;
+	height:100px;
 }
 
 #main-menu li {
@@ -109,18 +111,29 @@ header h1 {
 #page {
 	float:left;
 	width:60%;
-	margin:2.5%;
+	margin-right:5%;
 }
 
 #sidebar {
 	float:left;
 	width:30%;
-	margin:2.5%;
+	margin-left:5%;
 }
 
+#footer-contact {
+	float:left;
+	width:50%;
+}
 
+#footer-follow {
+	float:right;
+	width:50%;
+}
 
-
+#footer-follow li {
+	float:left;
+	text-align: right;
+}
 
 
 
