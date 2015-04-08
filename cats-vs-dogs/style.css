@@ -50,12 +50,22 @@ table {
 
 /* -----------------END RESET---------------- */
 header {
-	display: block;
-	margin-left: auto;
-	margin-right: auto
 
 }
 
+header img {
+	max-width: 100%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+}
 
 #main-menu {
 	color: black;
@@ -68,7 +78,10 @@ header {
 #main-menu li {
 	float: left;
 	margin-right: 20px;
-	list-style-type: circle;
+	list-style-type:disc;
+	margin: 0 auto;
+	list-style-position: center;
+	li
 }
 
 #main-menu a {
@@ -88,22 +101,36 @@ header {
 
 #dog {
 	float: left;
-	margin: 10px;
-	width: 35%;
+	margin: 2.5%;
+	width: 45%;
 }
 
 #cat {
-	float: right;
-	margin: 10px;
-	width: 35%;	
+	float: left;
+	margin: 2.5%;
+	width: 45%;	
 }
 
+article img {
+	width:100%;
+}
 
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%
+}
 
+p {
+	line-height: 125%;
+
+}
 
 footer {
 	text-align: left;
-	clear: bottom;
+	clear: both;
+	border-top: 2px black solid
 }
 
 
