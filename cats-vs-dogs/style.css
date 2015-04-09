@@ -59,6 +59,7 @@ header img {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+
 #main-menu li:first-child {
 	margin-left:10%;
 	list-style-type: none;
@@ -76,7 +77,7 @@ header img {
 #main-menu li {
 	float: left;
 	list-style-type: disc;
-	list-style-position: middle;
+	list-style-position: middle; 
 	padding:1%;
 	text-align: center;
 	margin-left: 5%;
@@ -147,4 +148,5 @@ footer {
 #right {
 	text-align: right;
 }
+
 
