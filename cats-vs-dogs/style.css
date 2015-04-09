@@ -49,9 +49,7 @@ table {
 }
 
 /* -----------------END RESET---------------- */
-header {
 
-}
 
 header img {
 	max-width: 100%;
@@ -62,14 +60,11 @@ header img {
 	margin-bottom: 5%;
 }
 
-body {
-	margin: 0 auto;
-	width: 100%;
-}
+
 
 #main-menu {
 	color: black;
-	float: right;
+	float: left;
 	border-top: 2px black solid;
 	border-bottom: 2px black solid;
 	width: 100%;
@@ -77,22 +72,17 @@ body {
 
 #main-menu li {
 	float: left;
-	margin-right: 20px;
 	list-style-type:disc;
-	margin: 0 auto;
-	list-style-position: center;
-	li
+	padding:1%;
+	text-align: center;
 }
 
 #main-menu a {
 	color: black;
-	display: block;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 2em;
-	padding: 10px;
-	text-align: center;
 }
 
 #main-menu a:hover {
@@ -128,9 +118,15 @@ p {
 }
 
 footer {
-	text-align: left;
 	clear: both;
 	border-top: 2px black solid
 }
 
+#left {
+	text-align: left;
+}
+
+#right {
+	text-align: right;
+}
 
