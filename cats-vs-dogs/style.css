@@ -70,6 +70,12 @@ header  {
 	 margin-bottom: 2.5%;
 }
 
+#versus {
+	font-family: 'Georgia';
+	font-style: italic;
+	font-size: 3em;
+}
+
 #main-menu li:first-child {
 	margin-left:22%;
 	list-style-type: none;
