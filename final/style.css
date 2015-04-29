@@ -58,6 +58,6 @@ img {
 }
 
 #main-menu {
-	display: inline-block;
+	float:left;
 }
 
