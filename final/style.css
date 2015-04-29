@@ -49,8 +49,10 @@ table {
 }
 
 /* -----------------END RESET---------------- */
-#photos {
+img {
 	float:left;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 
 
