@@ -4,21 +4,23 @@
   	Ian Inglis
     <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 <!-- Add mousewheel plugin (this is optional) -->
-<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
 
 <!-- Add fancyBox -->
-<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
-<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 <!-- Optionally add helpers - button, thumbnail and/or media -->
-<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
 
-<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
-<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
 
 
@@ -54,70 +56,75 @@
   	<article id='illustration-page'>
 
   	  <div class="photos">
-  			<img src='images/LionThumbnail.jpg'>
-        <div class="description">this is stuff</div>
+  			<a class="fancybox" rel="group" href="images/lion.jpg"><img src='images/LionThumbnail.jpg' alt="Charcoal Lion Drawing"/></a>
+        <div class="description">Lion</div>
       </div>    
   	
   	  <div class="photos">
-  			<img src='images/HyenaThumbnail.jpg'>
-  	    <div class="description">this is stuff2</div>
+  			<a class="fancybox" rel="group" href="images/hyena.jpg"><img src='images/HyenaThumbnail.jpg' alt="Charcoal Hyena Drawing"/></a>
+  	    <div class="description">Hyena</div>
       </div> 
 
   	  <div class="photos">
-  			<img src='images/WolfThumbnail.jpg'>
-  	    <div class="description">this is stuff2</div>	  
+  			<a class="fancybox" rel="group" href="images/wolf.jpg"><img src='images/WolfThumbnail.jpg' alt="Charcoal Wolf Drawing"/></a>
+  	    <div class="description">Wolf</div>	  
       </div>
   		    
   		<div class="photos">
-        <img src='images/SelfPortrait2Thumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+        <a class="fancybox" rel="group" href="images/selfportrait2.jpg.jpg"><img src='images/SelfPortrait2Thumbnail.jpg' alt="Charcoal Portrait Drawing"/></a>
+
+  		  <div class="description">Self Portrait</div>
       </div> 
 
   		<div class="photos">   
   			<img src='images/OldmanThumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">Life Takes Its Toll</div>
       </div>
 
   		<div class="photos">
   			<img src='images/SelfPortrait1Thumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">Self Portrait</div>
       </div>
 
   		<div class="photos">
   			<img src='images/SelfPortrait3Thumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">Self Portrait</div>
       </div>
 
   		<div class="photos">
   			<img src='images/JohnCageThumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">John Cage</div>
       </div>
 
   		<div class="photos">
   			<img src='images/RabbitThumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">Rabbit</div>
       </div>
 
   		<div class="photos">
   			<img src='images/CongoThumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">The Plight of Women in Congo</div>
       </div>
 
   		<div class="photos">  
   			<img src='images/BearThumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">Bear</div>
       </div>
 
   		<div class="photos">
   			<img src='images/CrowThumbnail.jpg'>
-  		  <div class="description">this is stuff2</div>
+  		  <div class="description">Crow</div>
       </div>
 
   		
 
   	</article>	
 
-	
+	<script type="text/javascript">
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
+</script>
 
   </body>
 </html>
