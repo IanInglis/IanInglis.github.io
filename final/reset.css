@@ -49,27 +49,8 @@ table {
 }
 
 /* -----------------END RESET---------------- */
-header {
-	float: top;
-}
-
-img {
-	float: left;
-	width: 35%;
-	margin: 10px;
-}
-
-#main-menu li a {
-	color: black;
-	float: left;
-	margin: 45px;
-	border-top: 1px black solid;
-}
-
-}
-
-footer {
-	text-align: left;
+#photos {
+	float:left;
 }
 
 
