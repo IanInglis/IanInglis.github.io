@@ -87,6 +87,6 @@ header h1 {
 	margin-top:6.7%;
 }
 
-#menu ul:first-child {
+#menu ul li a:first-child {
 	margin-left: 40%;
 }
