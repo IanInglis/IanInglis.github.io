@@ -66,6 +66,7 @@ header {
 	position:fixed;
     background-color:white;
     border-bottom: solid 3px; width:100%;
+    margin-bottom: 5%;
 }
 
 header h1 { 
@@ -75,7 +76,6 @@ header h1 {
 	color:black;	
 	margin-left:1%;
 	margin-top:5%;
-	margin-bottom: 5%;
 }
 
 
