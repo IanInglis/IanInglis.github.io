@@ -85,8 +85,7 @@ header h1 {
 	margin-left: 1%;
 	text-decoration: none;
 	margin-top:6.7%;
+	border-right: solid 1px;
 }
 
-ul:first-child{
-	margin-left: 60%;
-}
+
