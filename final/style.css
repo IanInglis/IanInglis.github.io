@@ -55,6 +55,7 @@ table {
 	margin-left: 1%;
 	margin-bottom: 1%;
 	margin-top: 1%;
+	display: inline-block;
 }
 
 .description {
@@ -74,7 +75,7 @@ header h1 {
 	font-weight:bold;
 	color:black;	
 	margin-left:1%;
-	margin-top:10%;
+	margin-top:5%;
 }
 
 
