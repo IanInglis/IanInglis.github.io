@@ -96,7 +96,7 @@ img {
 
 
 #header-wrapper {
-	height: 80px;
+	height: 20%;
 }
 
 header {
@@ -113,4 +113,7 @@ header h1 {
 	margin-top:18%;
 }
 
-
+#photos {
+	clear:both;
+	width:80%;
+}
