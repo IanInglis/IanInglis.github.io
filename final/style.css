@@ -80,4 +80,7 @@ header h1 {
 
 #menu a {
 	float: left;
+	color:black;
+	font-size: 1.5em;
+	margin-left: 1%;
 }
