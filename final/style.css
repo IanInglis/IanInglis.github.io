@@ -50,7 +50,7 @@ table {
 
 /* -----------------END RESET---------------- */
 #photos{
-	clear:both;
+	float:left;
 	margin-right: 1%;
 	margin-left: 1%;
 	margin-bottom: 1%;
