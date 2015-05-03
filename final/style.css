@@ -93,4 +93,10 @@ header h1 {
 	margin-bottom: 5%;
 }
 
+#right-border {
+	float: right;
+	border-left: solid 3px; width:100%;
+	width:15%;
+
+}
 
