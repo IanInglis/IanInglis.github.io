@@ -63,4 +63,9 @@ img {
 
 header {
 	display: inline-block;
+
+}
+
+a {
+	float:left;
 }
