@@ -84,5 +84,9 @@ header h1 {
 	font-size: 1.2em;
 	margin-left: 1%;
 	text-decoration: none;
-	margin-top:7%;
+	margin-top:6.5%;
+}
+
+#menu a:first-child {
+	margin-left: 50%;
 }
