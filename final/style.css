@@ -58,14 +58,23 @@ table {
 }
 
 .description {
-	display: none;
+	display:none;
 }
 
+.photos:hover .description {
+	position: absolute;
+	left:77%;
+	top:340px;
+	display:block;
+	
+}
+.clear { clear:both;}
 
 header {
 	position:fixed;
     background-color:white;
     border-bottom: solid 3px; width:100%;
+    z-index: 1000;
 }
 
 header h1 { 
@@ -75,7 +84,7 @@ header h1 {
 	color:black;	
 	margin-left:5.5%;
 	margin-top:4.5%;
-	margin-right: 11.70%;
+	margin-right: 13.5%;
 }
 
 #menu a {
@@ -94,14 +103,22 @@ header h1 {
 }
 
 #illustration-page {
-	width: 75%;
+	width: 68%;
 	margin-left: 5%;
 	border-right: solid 3px;
 }
 
-a:hover {
+#menu a:hover {
 	background-color: lightgray;
 	padding: .1%;
 
 }
 
+#menu .menu-active {
+	color: lightgray;
+}
+
+#header-wrapper {
+	height: 150px;
+	z-index: 1;
+}
