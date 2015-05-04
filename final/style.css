@@ -62,9 +62,9 @@ table {
 }
 
 .photos:hover .description {
-	position: absolute;
+	position: fixed;
 	left:77%;
-	top:340px;
+	bottom:340px;
 	display:block;
 	
 }
@@ -98,9 +98,7 @@ header h1 {
 	padding-right: 1%;
 }
 
-#menu {
-	margin-bottom: 5%;
-}
+
 
 #illustration-page {
 	width: 68%;
