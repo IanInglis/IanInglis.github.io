@@ -59,14 +59,30 @@ table {
 
 .description {
 	display:none;
+
+}
+
+.description h1 {
+	font-size: 1.25em;
+	font-weight: bold;
 }
 
 .photos:hover .description {
 	position: fixed;
 	left:77%;
-	bottom:340px;
+	top:340px;
 	display:block;
-	
+	border: solid 2px;
+	border-radius: 20px;
+	padding-right:5%;
+	padding-left: .5%;
+	padding-top: .5%;
+	padding-bottom: 5%;
+	background-color: lightgray;	
+}
+
+.photos:hover {
+	opacity: .9;
 }
 .clear { clear:both;}
 
