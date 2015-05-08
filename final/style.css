@@ -110,7 +110,7 @@ header h1 {
 	margin-left: .5%;
 	text-decoration: none;
 	margin-top:5.3%;
-	border-right: solid 1px;
+	border-right: solid 2px;
 	padding-right: 1%;
 }
 
@@ -123,13 +123,13 @@ header h1 {
 }
 
 #menu a:hover {
-	background-color: lightgray;
-	padding: .1%;
+	color: gray;
+	padding: .01%;
 
 }
 
 #menu .menu-active {
-	color: lightgray;
+	color: gray;
 }
 
 #header-wrapper {
