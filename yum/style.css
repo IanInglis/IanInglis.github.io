@@ -112,6 +112,11 @@ margin-bottom: 2.5%;
 	margin-bottom: 2.5%;
 }
 
+#card-border {
+	margin: 0 auto;
+	border: solid 3px;
+}
+
 img {
 	margin: 0 auto;
 }
