@@ -89,6 +89,10 @@ table {
 	margin-bottom: 2%;
 }
 
+.photos:hover .description p {
+	line-height: 1.25em;
+}
+
 .clear { clear:both;}
 
 header {
