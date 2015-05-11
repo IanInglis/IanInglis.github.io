@@ -146,3 +146,14 @@ header h1 {
 	height: 150px;
 	z-index: 1;
 }
+
+#contact-form {
+	margin: 0 auto;
+	width: 25%;
+}
+
+#contact-header {
+	margin: 0 auto;
+	width: 25%;
+	height: 40px;
+}
