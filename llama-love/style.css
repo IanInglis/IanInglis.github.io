@@ -53,14 +53,30 @@ table {
 /* -----------------END RESET---------------- */
 article {
 	float: left;
-	width: 50%;
-	margin: 10px;
+	width: 42%;
+	margin-right:2%;
+	margin-left: 2%;
 }
 
 img {
 	float: left;
-	margin: 0 10px 10px 0;
+	margin: 0 3% 3% 0;
 	
+}
+
+h1 {
+	font-size:3em;
+	font-family: Helvetica;
+	font-weight: bold;
+	margin-bottom: 1%;
+}
+
+h2 {
+	font-size:1em;
+	font-family: Helvetica;
+    color:gray;
+    margin-bottom: 3%;
+
 }
 
 
